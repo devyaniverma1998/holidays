@@ -1,8 +1,8 @@
 {
   "/_not-found/page": "/_not-found",
-  "/gallery/page": "/gallery",
+  "/enroll/page": "/enroll",
   "/page": "/",
+  "/gallery/page": "/gallery",
   "/faq/page": "/faq",
-  "/signup/page": "/signup",
-  "/enroll/page": "/enroll"
+  "/signup/page": "/signup"
 }

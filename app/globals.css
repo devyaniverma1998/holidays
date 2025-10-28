@@ -27,10 +27,35 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 :root {
-    --swiper-theme-color: white !important;
-    --swiper-navigation-size: 27px !important;
+  --swiper-theme-color: white !important;
+  --swiper-navigation-size: 27px !important;
 }
 
 
 
+footer .tab-button.active {
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  box-shadow: 0 8px 25px rgba(6, 182, 212, 0.3);
+  transform: translateY(-2px);
+}
+
+.text-cyan-400 {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity, 1));
+}
+
+footer .section-title {
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.footer-gradient .content-panel {
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}

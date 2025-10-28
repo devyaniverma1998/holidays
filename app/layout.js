@@ -1,5 +1,6 @@
 
 import './globals.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from '@/components/Navbar/page';
 import Footer from '@/components/Footer/page';
 // Removed TypeScript-specific import and type annotation
